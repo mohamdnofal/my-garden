@@ -1,0 +1,58 @@
+body {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 42px;tems: center;
+    color: white;
+}
+main{
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+}
+th {
+    padding: 43px;
+}
+img{
+    width: 50px;
+}
+
+.label {
+    padding: 20;
+    margin-left: 319px;
+}
+
+input#name {
+    margin-bottom: 20px;
+    padding: 0 2px;
+    margin-left: 10px;
+}
+
+select#select {
+    margin-bottom: 20px;
+    padding: 0px 24px;
+}
+
+button {
+    margin-top: 13px;
+}
+
+#form {
+    border-radius: 29px;
+}
+
+footer {
+    background-color: cadetblue;
+    padding: 14px 0px;
+    text-align: center;
+    color: white;
+
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>my fabulous garden</header>
+
+    <main>
+        <form action="" id="form" class="label">
+        <div >
+            <label for="name">name</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="select">image:</label>
+
+            <select id="select" name="select">
+                <option value="./img/alstroemerias.jpeg">alstroemerias</option>
+                <option value="./img/gardenias.jpeg">gardenias</option>
+                <option value="./img/orchids.jpeg">orchids</option>
+                <option value="./img/peonies.jpeg" selected>peonies</option>
+                <option value="./img/roses.jpeg">roses</option>
+                <option value="./img/sunflowers.jpeg">sunflowers</option>
+                <option value="./img/tulips.jpeg" selected>tulips</option>
+            </select>
+        </div>
+        <div>
+            <label for="season">season</label>
+            <input type="text" id="season" name="season">
+        </div>
+
+        <div>
+            <button type="submit" value="submit">save</button>
+        </div>
+    </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>image</th>
+                    <th>name</th>
+                    <th>season</th>
+                </tr>
+            </thead>
+            <tbody id="body">
+
+            </tbody>
+
+        </table>
+
+        <!-- <button value="clearAll" id="clearAll">clear</button> -->
+    </main>
+
+    <footer>
+        All right reservd 2021 &COPY; ASAC
+    </footer>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
